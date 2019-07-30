@@ -227,11 +227,11 @@ import UIKit
     private enum HandleTracking { case none, left, right }
     private var handleTracking: HandleTracking = .none
 
-    private let sliderLine: CALayer = CALayer()
-    private let sliderLineBetweenHandles: CALayer = CALayer()
+    public let sliderLine: CALayer = CALayer()
+    public let sliderLineBetweenHandles: CALayer = CALayer()
 
-    private let leftHandle: CALayer = CALayer()
-    private let rightHandle: CALayer = CALayer()
+    public let leftHandle: CALayer = CALayer()
+    public let rightHandle: CALayer = CALayer()
 
     fileprivate let minLabel: CATextLayer = CATextLayer()
     fileprivate let maxLabel: CATextLayer = CATextLayer()
