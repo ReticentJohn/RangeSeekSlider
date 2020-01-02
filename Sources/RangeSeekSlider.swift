@@ -233,8 +233,8 @@ import UIKit
     public let leftHandle: CALayer = CALayer()
     public let rightHandle: CALayer = CALayer()
 
-    fileprivate let minLabel: CATextLayer = CATextLayer()
-    fileprivate let maxLabel: CATextLayer = CATextLayer()
+    public let minLabel: CATextLayer = CATextLayer()
+    public let maxLabel: CATextLayer = CATextLayer()
 
     private var minLabelTextSize: CGSize = .zero
     private var maxLabelTextSize: CGSize = .zero
