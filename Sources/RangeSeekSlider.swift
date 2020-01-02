@@ -548,7 +548,7 @@ import UIKit
                                                 height: lineHeight)
     }
     
-    public func updateLabelPositions() {
+    open func updateLabelPositions() {
         // the center points for the labels are X = the same x position as the relevant handle. Y = the y position of the handle minus half the height of the text label, minus some padding.
 
         minLabel.frame.size = minLabelTextSize
